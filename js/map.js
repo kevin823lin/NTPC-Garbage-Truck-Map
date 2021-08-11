@@ -1,9 +1,7 @@
 var map = map = L.map('mapid').setView([25.0123025, 121.4632665], 18);
 
-const garbagetruckIconUrl = "../img/garbage-truck-light-matting.png";
-const changegarbagetruckIconUrl = () => {
-  if (isDark.matches) garbagetruckIconUrl = "../img/garbage-truck-dark-matting.png";
-};
+//const garbagetruckIconUrl = "../img/garbage-truck-light-matting.png"; // use in local
+const garbagetruckIconUrl = "img/garbage-truck-light-matting.png"; // use in Github Pages
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     maxZoom: 18,
