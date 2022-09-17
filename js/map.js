@@ -28,7 +28,8 @@ var garbagetruckIcon = L.icon({
 });
 var request = new XMLHttpRequest();
 var car;
-const cors = 'https://cors.kevin823lin.codes/';
+// const cors = 'https://cors.kevin823lin.codes/';
+const cors = 'https://script.google.com/macros/s/AKfycbykCyHA21hrEiuAS3EbOL8wQRVyE0fDAKTmMalWMoDl89J1AB3Zx-wtdhKywR7y9KRMiw/exec';
 const url = 'https://data.ntpc.gov.tw/api/datasets/28AB4122-60E1-4065-98E5-ABCCB69AACA6/json';
 const token = '';
 request.open('GET', `${cors}?url=${url}&token=${token}`, true);
